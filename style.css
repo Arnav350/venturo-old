@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Work+Sans:wght@300;500&display=swap');
+
+* {
+  font-family: "Work Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: #1d1e24;
+  line-height: 1.25;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 40px 12px;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navigation bar */
+
+.nav-bar {
+  height: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.nav-title {
+  display: flex;
+}
+
+.nav-logo {
+  width: 100%;
+  max-width: 80px;
+}
+
+.nav-name {
+  width: 100%;
+  max-width: 200px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-li {
+  padding: 0px 16px;
+}
+
+.nav-sign {
+  color: #ffffff;
+  background-color: #38d9c2;
+  border: #38d9c2 solid;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.nav-header {
+  position: relative;
+}
