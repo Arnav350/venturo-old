@@ -45,6 +45,17 @@ a {
   text-decoration: none;
 }
 
+.blue-button:hover {
+  background-color: #34ebcd;
+  border: #34ebcd solid;
+}
+
+.white-button:hover {
+  color: #34ebcd;
+  border: #e0e2e6 solid;
+}
+
+
 /* navigation bar */
 
 .nav-bar {
@@ -93,6 +104,23 @@ a {
 
 .nav-header {
   position: relative;
+  color: #000000;
+}
+
+.nav-header::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: -3px;
+  left: 0px;
+  background-color: #1d1e24;
+  transform: scale(0);
+  transition: all 200ms ease;
+}
+
+.nav-header:hover::after{
+  transform: scale(1);
 }
 
 /* information */
@@ -197,6 +225,7 @@ a {
 }
 
 .steps-more {
+  color: #000000;
   text-align: center;
   padding: 8px 0px;
   font-size: 14px;
