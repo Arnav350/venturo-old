@@ -55,6 +55,7 @@ a {
   border: #e0e2e6 solid;
 }
 
+/* INDEX */
 
 /* navigation bar */
 
@@ -286,4 +287,45 @@ footer {
   max-width: 600px;
   padding-left: 50px;
   padding-top: 20px;
+}
+
+/* ABOUT */
+
+/* mission */
+
+.about-title {
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 16px;
+}
+
+.mission-text {
+  width: 40%;
+  padding-right: 8px;
+}
+
+.mission-title {
+  font-size: 38px;
+  padding-bottom: 16px;
+}
+
+.mission-p {
+  font-size: 18px;
+}
+
+.mission-fig {
+  width: 60%;
+}
+
+.mission-img {
+  width: 100%;
 }
