@@ -508,7 +508,7 @@ footer {
 
 .review-box {
   display: flex;
-  padding: 24px 0px;
+  padding: 60px 0px;
 }
 
 .review-fig {
@@ -550,14 +550,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 128px;
 }
 
 .review-rating {
-  max-width: 100px;
   width: 100%;
 }
 
 .review-date {
   font-size: 20px;
   font-weight: 300;
+  padding-right: 16px;
 }
