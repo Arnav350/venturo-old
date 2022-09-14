@@ -425,7 +425,59 @@ footer {
   width: 100%;
 }
 
+/* why us */
 
+.why {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  padding: 64px 16px;
+}
+
+.why-fig {
+  width: 55%;
+}
+
+.why-img {
+  width: 100%;
+}
+
+.why-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding-left: 32px;
+}
+
+.why-title {
+  font-size: 38px;
+  padding-bottom: 16px;
+}
+
+.reason {
+  display: flex;
+  padding: 16px 8px;
+}
+
+.reason-fig {
+  width: 100px;
+}
+
+.reason-img {
+  width: 100%;
+}
+
+.reason-text {
+  padding: 0px 12px;
+}
+
+.reason-title {
+  font-weight: 400;
+}
 
 /* FAQ */
 
