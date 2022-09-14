@@ -384,6 +384,10 @@ footer {
 
 /* mission */
 
+.about {
+  padding: 80px 20px;
+}
+
 .about-title {
   font-size: 44px;
   text-align: center;
@@ -396,12 +400,12 @@ footer {
   align-items: center;
   max-width: 1000px;
   width: 100%;
-  padding: 16px;
+  padding: 32px 16px;
 }
 
 .mission-text {
   width: 40%;
-  padding-right: 8px;
+  padding-right: 12px;
 }
 
 .mission-title {
@@ -420,6 +424,8 @@ footer {
 .mission-img {
   width: 100%;
 }
+
+
 
 /* FAQ */
 
