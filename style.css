@@ -427,13 +427,18 @@ footer {
 
 /* why us */
 
+.bottom {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  padding: 96px 16px;
+}
+
 .why {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1000px;
-  width: 100%;
-  padding: 64px 16px;
 }
 
 .why-fig {
@@ -477,6 +482,34 @@ footer {
 
 .reason-title {
   font-weight: 400;
+}
+
+.bottom-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.bottom-learn {
+  color: #ffffff;
+  background-color: #38d9c2;
+  border: #38d9c2 solid;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-right: 24px;
+  transition: all 300ms ease;
+}
+
+.bottom-vol {
+  color: #38d9c2;
+  background-color: #ffffff;
+  border: #d7d8de solid;
+  padding: 12px 42px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: all 300ms ease;
 }
 
 /* FAQ */
