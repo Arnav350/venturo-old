@@ -191,6 +191,7 @@ a {
 
 .steps {
   display: flex;
+
 }
 
 .steps-title {
@@ -201,11 +202,13 @@ a {
 
 .steps-fig {
   padding: 16px 24px;
+  margin: auto 0;
 }
 
 .steps-pic {
   max-width: 600px;
   width: 100%;
+  max-height: 100%;
 }
 
 .steps-text {
@@ -213,6 +216,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 440px;
 }
 
 .steps-step {
@@ -221,7 +225,7 @@ a {
   width: 100%;
 }
 
-.steps-plan {
+.steps-link {
   color: #000000;
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: underline;
@@ -591,7 +595,7 @@ footer {
   color: #38d9c2;
 }
 
-.faq-plan {
+.faq-link {
   color: #000000;
   font-family: 'Nunito Sans', sans-serif;
   text-decoration: underline;
