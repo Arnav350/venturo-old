@@ -127,7 +127,7 @@ a {
   transition: all 200ms ease;
 }
 
-.nav-header:hover::after{
+.nav-header:hover::after {
   transform: scale(1);
 }
 
@@ -221,6 +221,12 @@ a {
   width: 100%;
 }
 
+.steps-plan {
+  color: #000000;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: underline;
+}
+
 .steps-start {
   color: #ffffff;
   background-color: #38d9c2;
@@ -249,7 +255,8 @@ footer {
   background-color: #3a3a3f;
 }
 
-.footer-bar, .footer-contact {
+.footer-bar,
+.footer-contact {
   display: flex;
 }
 
@@ -313,7 +320,7 @@ footer {
   background-color: #ffffff;
   right: 30px;
   top: 40px;
-  border-radius: 32px; 
+  border-radius: 32px;
 }
 
 .donate-heading {
@@ -331,7 +338,8 @@ footer {
   margin: 16px 0px;
 }
 
-.donate-amount, .donate-time {
+.donate-amount,
+.donate-time {
   width: calc(80% / 3);
   display: flex;
   justify-content: center;
@@ -532,11 +540,12 @@ footer {
 .faq-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   padding: 24px 0px;
 }
 
-.faq-question, .faq-answer {
+.faq-question,
+.faq-answer {
   position: relative;
   display: flex;
   align-items: center;
@@ -554,7 +563,8 @@ footer {
   background-color: #f5f3f3;
 }
 
-.faq-question::after, .faq-answer::after {
+.faq-question::after,
+.faq-answer::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -571,13 +581,20 @@ footer {
   background-color: #1d1e24;
 }
 
-.faq-q, .faq-a {
+.faq-q,
+.faq-a {
   font-size: 32px;
   padding-right: 12px;
 }
 
 .faq-q {
   color: #38d9c2;
+}
+
+.faq-plan {
+  color: #000000;
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: underline;
 }
 
 /* REVIEW */
